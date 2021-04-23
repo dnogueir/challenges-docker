@@ -1,6 +1,8 @@
 # challenges-docker
 
 ## Running golang 2mb challenge
+### dockerhub image
+https://hub.docker.com/repository/docker/dnogueira92/codeeducation
 
 - clone the repository
 - go in the directory /golang-2mb
