@@ -21,4 +21,4 @@ OR
 - go in the directory /nodejs-nginx
 - run docker-compose up -d --build
 - after all the containers are up, wait a few more seconds to make sure everything is initialliazed
-- go to http://localhos:8080
+- go to http://localhost:8080
