@@ -21,7 +21,7 @@ app.get('/', (rep,res) => {
     connection.query(selectsql, function(err, result, fields) {
         console.log(result[0].name)
         name = result[0].name
-        res.send(`<h1>Full Cycle</h1><p>${name}</p>`) 
+        res.send(`<h1>Full Cycle Rocks!</h1><p>${name}</p>`) 
     })
  
 })
