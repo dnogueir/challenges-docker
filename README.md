@@ -13,3 +13,12 @@ OR
 
 - docker pull dnogueira92/codeeducation
 - docker run dnogueira92/codeeducation
+
+
+## Running nodejs + nginx challenge
+
+- clone the repository
+- go in the directory /nodejs-nginx
+- run docker-compose up -d --build
+- after all the containers are up, wait a few more seconds to make sure everything is initialliazed
+- go to http://localhos:8080
