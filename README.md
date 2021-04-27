@@ -31,8 +31,8 @@ OR
 ```
 docker network create node-network
 docker run --network=node-network --name dbcontainer -e MYSQL_DATABASE=nodedb -e MYSQL_ROOT_PASSWORD=root -p 3306:3306 -d mysql:5.7
-docker build -t dnogueira92/nodejsapi ./node
-docker build -t dnogueira92/nginxnodejsapi ./nginx
+docker pull dnogueira92/nodejsapi:latest
+docker pull dnogueira92/nginxnodejsapi:latest
 docker run --network=node-network --name nodejs -p 3000:3000 -d dnogueira92/nodejsapi
 docker run --network=node-network --name nginx -p 8080:80 -d dnogueira92/nginxnodejsapi
 ```
