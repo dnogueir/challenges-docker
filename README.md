@@ -23,7 +23,7 @@ OR
 - after all the containers are up, wait a few more seconds to make sure everything is initialliazed
 - go to http://localhost:8080
 
-## Running ps challenge
+## Running pfa-1 challenge
 
 - clone the repository
 - go in the directory /pfa-1
